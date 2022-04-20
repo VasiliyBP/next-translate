@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Development
 
-- Copy the env file with `cp .env.example .env` and fill out the missing variables
 - Install all dependencies with `npm install`
 - Start the web server with `npm run dev`
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
+- Available languages EN (default) and DE.
+- Check console.log in pages/market. It doesn't fire at all.
