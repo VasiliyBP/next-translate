@@ -61,7 +61,7 @@ Market.getInitialProps = (ctx: any) => {
 
   const isSSR = typeof window === 'undefined';
 
-  console.log('MARKET getInitialPageProps', ctx);
+  console.log('MARKET getInitialPageProps',);
   console.log('isSSR', isSSR);
 
   // if (isSSR) {
@@ -72,6 +72,7 @@ Market.getInitialProps = (ctx: any) => {
   // }
 
   return {
+    // test: true,
     // Will be passed to the page component as props
     // ...(await loadNamespaces({
     //   locale: ctx.locale,
@@ -94,3 +95,4 @@ const mapStateToProps = (state: AppState) => {
 
 
 export default connect(mapStateToProps)(Market);
+// export default Market;

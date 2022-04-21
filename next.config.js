@@ -9,7 +9,7 @@ const { env } = process;
 
 module.exports = nextTranslate(
   {
-  // i18n,
+  // i18n
   // Will be available on both server and client
     sassOptions: {
       includePaths: [path.join(__dirname, 'styles')],

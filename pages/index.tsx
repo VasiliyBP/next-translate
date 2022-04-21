@@ -41,24 +41,19 @@ const Home = (props: any) => {
 
       <div className="flex flex-col max-w-screen-2xl mx-auto min-h-screen sm:min-h-full mt-[120px]">
         <div className="mx-10 py-10 flex flex-col justify-center items-start text-2xl ">
-
           <h1>Home — getServerSideProps</h1>
 
           <br />
 
           <p>
             <Link href="/market">
-
               Go to market
-
             </Link>
           </p>
 
           <p>
             Translation test value: {t('global.cancel')}
           </p>
-
-
         </div>
       </div>
     </>
@@ -98,4 +93,5 @@ const mapStateToProps = (state: AppState) => {
   };
 };
 
-export default connect(mapStateToProps)(memo(Home));
+// export default connect(mapStateToProps)(memo(Home));
+export default Home;
